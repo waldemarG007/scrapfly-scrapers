@@ -8,7 +8,7 @@ Dieser Linkedin.com-Scraper verwendet **Python 3.10** mit dem [scrapfly-sdk](htt
 
 1.  Stellen Sie sicher, dass Sie **Python 3.10** und den [Poetry](https://python-poetry.org/docs/#installation) Python-Paketmanager auf Ihrem System installiert haben.
 2.  Holen Sie sich Ihren Scrapfly-API-Schlüssel von [https://scrapfly.io/dashboard](https://scrapfly.io/dashboard) und setzen Sie die `SCRAPFLY_KEY`-Umgebungsvariable:
-    > **Hinweis:** Scrapfly bietet einen kostenlosen Tarif mit 1.000 API-Credits für den Einstieg. Bezahlte Pläne sind ebenfalls verfügbar, falls Sie mehr Credits benötigen.
+    > **Hinweis zu API-Credits:** Scrapfly bietet einen kostenlosen Tarif mit 1.000 API-Credits. Die Konfiguration dieses Scrapers verwendet Funktionen (JavaScript-Rendering und private Proxys), die **30 Credits pro Anfrage** kosten. Daher reichen die kostenlosen Credits für ungefähr **33 Scrape-Anfragen**. Sobald diese Credits aufgebraucht sind, müssen Sie auf einen kostenpflichtigen Plan bei Scrapfly upgraden, um mit dem Scrapen fortzufahren.
 
     ```shell
     export SCRAPFLY_KEY="DEIN SCRAPFLY SCHLÜSSEL"
